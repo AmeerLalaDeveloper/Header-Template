@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="logo"><a href="#">A-BOOKING</a></div>
+          <div class="pages">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="form-div">
+        <form action="">
+          <div class="form-group">
+            <label for="from">Leave From</label>
+            <select name="from" id="from">
+              <option value="" disabled hidden selected>From...</option>
+              <option value="Brazil">Brazil</option>
+              <option value="Israel">Israel</option>
+              <option value="Spain">Spain</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="to">To</label>
+            <select name="to" id="to">
+              <option value="" disabled hidden selected>To...</option>
+              <option value="Italy">Italy</option>
+              <option value="Austria">Israel</option>
+              <option value="France">France</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="date">Depart</label>
+            <input type="date" name="date" id="date" />
+          </div>
+          <input type="submit" value="Order Now" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
